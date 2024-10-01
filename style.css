@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #f0f8ff; */
+    font-family: "Fira Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #161514;
+    --secondaryColor: #2b0060;
+    --lightColor: #ffffff;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Kanit", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* .navbody{
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 1fr;
+}
+
+.grid-9 {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+}
+
+.grid-88 {
+    display: grid;
+    grid-template-columns: 3.5fr 5fr;
+}
+
+.grid-11 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dflex-end {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.dflex-col-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 0.5rem;
+}
+
+.componentSpacing {
+    padding: 4rem 0;
+}
+
+/* ::: HEADER CODE STARTS HERE::: */
+.navLogo img {
+    height: 7.5rem;
+    width: auto;
+    margin-left: 5rem;
+}
+
+.navLinks {
+    justify-content: space-around;
+}
+
+.navLinks li {
+    list-style-type: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.topBody {
+    background-color: #a4b660;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.topBody span {
+    color: #ffffff;
+}
+
+.navLinks {
+    font-size: 1.8rem;
+    color: #a4b660;
+}
+
+.navIcons i {
+    font-size: 1.9rem;
+    padding: 8px;
+    color: #a4b660;
+}
+
+.navIcons {
+    padding: 0 0 0 13rem;
+}
+
+/* ::: HEADER CODE ENDS HERE::: */
+
+/* ::: MAIN CODE STARTS HERE::: */
+
+.sellerText h3 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.sk7 button {
+    margin-right: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sk8 button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.careText button {
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.sellerCardHeader img {
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    height: 35vh;
+    width: auto;
+
+}
+
+.cardBody {
+    gap: 5rem;
+}
+
+.CareCardBody {
+    gap: 5rem;
+}
+
+.allCardBody {
+    gap: 5rem;
+
+}
+
+
+.sellerCardBody h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #a7a7a7;
+    margin-bottom: 0.5rem;
+}
+
+.sellerCardBody h4 i {
+    color: #fcc407;
+}
+
+.sellerCardBody p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.sellerCardBody h6 {
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.slideBody {
+    padding: 1rem;
+}
+
+.slideText {
+    font-size: 3.5rem;
+    color: #a4b660;
+    gap: 2rem;
+}
+
+.com1 button {
+    margin-right: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.com2 button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.comboText button {
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.careCard img {
+    border-radius: 15px;
+    height: 35vh;
+    width: auto;
+    margin-bottom: 3rem;
+}
+
+.careCardBody h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #a7a7a7;
+    margin-bottom: 0.5rem;
+}
+
+.careCardBody h4 i {
+    color: #fcc407;
+
+}
+
+.careCardBody p {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+
+.careCardBody h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.careCardBody h3 {
+    font-size: 1.5rem;
+}
+
+.allBodyText h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.allCardBody h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #a7a7a7;
+    margin-bottom: 0.5rem;
+}
+
+.allCardBody h5 i {
+    color: #fcc407;
+
+}
+
+.allCardBody h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 450;
+}
+
+.allCardBody h4 {
+    font-size: 1.5rem;
+
+    font-weight: 450;
+}
+
+.allCardBody p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.allCard img {
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    height: 35vh;
+    width: auto;
+
+}
+
+.realStoriesCardBody {
+    background-image: url(./assets/images/realStories.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.realStoriesText1 img {
+    height: 40vh;
+    width: auto;
+}
+
+
+.realStoriesText2 h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.realStoriesText2 button {
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding: 1.1rem 2rem;
+    background-color: #a4b660;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.realStoriesText2 p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 1rem;
+
+}
+
+.realtext h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.birthText1 img {
+    height: 40vh;
+    width: auto;
+    border-radius: 10px;
+}
+
+.birthText2 h5 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #a4b660;
+}
+
+.birthText2 h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #a4b660;
+    margin-bottom: 2rem;
+}
+
+.birthText2 p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.titleText h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.linksText {
+    justify-content: space-around;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.linksText li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.VisitCardHeader img {
+    height: 60vh;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.visitCardHeader1 img {
+    height: 60vh;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.visitCardHeader2 img {
+    height: 60vh;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+
+.visitCardBody h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.visitCardBody p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.paraText p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.newsText img {
+    gap: 2rem;
+}
+
+.informationContainer {
+    background-color: #e0e6c9;
+}
+
+.worldText i {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.worldText h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.worldText p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.shippingText i {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.shippingText h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.shippingText p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.rewardsText i {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.rewardsText h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.rewardsText p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.secureText i {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.secureText h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.secureText p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.milktext img {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ::: MAIN CODE ENDS HERE::: */
+
+/* ::: FOOTER CODE STARTS HERE::: */
+.aboutUsContainer {
+    background-color: #a4b660;
+    padding: 4rem;
+}
+
+.socialmedia i {
+    font-size: 3.5rem;
+    color: #ffffff;
+    width: 5rem;
+    margin-bottom: 3rem;
+}
+
+.vilvahPara p {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.mails input {
+    border-radius: 5px;
+    border: transparent;
+    height: 3.5rem;
+    width: 55%;
+    margin-bottom: 2rem;
+
+}
+
+.mails ::placeholder {
+    padding: 0 0 0 1.5rem;
+}
+
+.mails button {
+    height: 3.5rem;
+    width: 10%;
+    border-radius: 5px;
+    border: #ffffff;
+    margin-bottom: 6rem;
+
+}
+
+.icons i {
+    font-size: 2rem;
+    color: #ffffff;
+    width: 4rem;
+}
+
+.topText li {
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.topText h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.policiesText li {
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.policiesText h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.bestSellersText li {
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.bestSellersText h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.infoText li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.infoText h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.aboutUsBody {
+    margin-bottom: 4rem;
+}
+
+.vilsText h3 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.nauPar1 h4 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.nauPar1 p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+}
+
+.nauPar2 h4 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.nauPar2 p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+}
+
+
+
+
+/* ::: FOOTER CODE ENDS HERE::: */
